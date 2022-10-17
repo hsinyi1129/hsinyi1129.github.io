@@ -1,0 +1,21 @@
+#first {
+    background-image: url("/assets/mrt_01.png");
+    min-height: 1200px;
+    /* # 固定不隨著捲動往上跑 */
+    background-attachment: fixed;
+    /* # 置中 */
+    background-position: center;      
+    /* # 不會用重複圖片填滿空白*/
+    background-repeat: no-repeat;
+    /* # 背景圖片滿版 */
+    background-size: cover;           
+}
+
+#second {
+    background-image: url("/assets/mrt_02.png");
+    min-height: 1200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
